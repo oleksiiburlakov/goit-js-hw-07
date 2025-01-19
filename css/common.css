@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+    
+  }
+  
+  button{
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* ---------------------- TASK 1 ------------------------------------- */
+  .first-task{
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px; 
+    border-radius: 8px; 
+    padding: 24px; 
+    width: 440px; 
+    height: auto; 
+    background: #fff; 
+    margin: 0 auto;
+  }
+  
+  .item:not(:last-child){
+    margin-bottom: 24px;
+  }
+  
+  .title-task1{
+    margin: 0;
+  }
+  
+  .item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    width: 392px;
+    height: auto;
+    background: #f6f6fe;
+    margin: 0 auto;
+  }
+  
+  .items-li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .items-li li{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto; 
+  }
+  
+  
+  /* ------------------ TASK 2 ------------------ */
+  .gallery{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+  }
+  
+  .gallery img{
+    width: 360px;
+    height: 300px;
+  }
+  
+  
+  /* ----------------TASK 3 -------------- */
+  #name-input{
+    width: 360px;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  .title-task3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  
+  /* --------------- TASK 4 --------------*/
+  
+  .login-form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 256px;
+    background: #fff;
+  }
+  
+  label{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    height: auto;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  label:hover, label:focus{
+    color: #212121;
+  
+  }
+  
+  .btn-task4{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+  
+  .btn-task4:hover, .btn-task4:focus{
+    background: #6c8cff;
+  }
+  
+  
+  /* -------------- TASK 5 ---------------- */
+  .widget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .change-color{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+  
+  .paragraph-task5{
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  .change-color:hover, .change-color:focus{
+    background: #6c8cff;
+  }
+  
+  
+  /* ----------------- TASK 6 ----------------- */
+  
+  .controls{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background: #f6f6fe;
+  }
+  
+  .input-task6{
+    border: 1px solid #808080;
+    border-radius: 8px;
+    /* padding: 8px 72px; */
+    padding-top: 8px;
+    padding-left: 72px;
+    padding-bottom: 8px;
+    width: 150px;
+    height: 40px;
+    gap: 10px;
+    font-size: 16px; 
+    color: #000;
+  }
+  
+  .btn-create{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #4e75ff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+  
+  .btn-create:hover, .btn-create:focus{
+    background: #6c8cff;
+  }
+  
+  .btn-destroy{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #ff4e4e;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+  
+  .btn-destroy:hover, .btn-destroy:focus{
+    background: #ff7070;
+  }
+  
+  /* --------------- TASK 6 ----------------- */
+  #boxes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: auto;
+    
+  }
